@@ -24,7 +24,7 @@ user1 = User("Joe", "Smith", 68)
 user2 = User("Blanca", "Lopez", 41)
 
 print(user1.likes("Ice Cream"))
-print(user2.likes("Chips"))
+print(user2.likes("Chips ahoy"))
 
 print(user1.initials())
 print(user2.initials())
