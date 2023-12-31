@@ -24,8 +24,11 @@ class User:
 
 user1 = User("Joe", "Smith", 68)
 user2 = User("Blanca", "Lopez", 41)
+user3 = User("Jet", "Smith", 20)
+
 print(user1.first, user1.last, user1.age)
 print(user2.first, user2.last, user2.age)
+print(user3.first, user3.last, user3.age)
 
 
 
