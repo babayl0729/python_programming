@@ -22,10 +22,9 @@ class Pet:
 
 cat = Pet("Blue", "cat")
 dog = Pet("Wyatt", "dog")
-cat.species = "tiger"
-#bear = Pet("Rolly", "bear")
+# bear = Pet("Rolly", "bear")
 
 print(cat.name, cat.species)
 print(dog.name, dog.species)
-#print(bear.name, bear.species)
-print(cat.species)
+# print(bear.name, bear.species)
+print(cat.set_species("lion"))
