@@ -1,3 +1,9 @@
+# classes in python can have a special 
+# __init__ method, which gets called every
+# time you create an instance of the class
+# (instantiate).
+# every time you make a new class you 
+# need to have a __init__ method.
 # A User class with 3 attributes but no methods (aside from __init__)
 class User:
 	def __init__(self, first, last, age):
