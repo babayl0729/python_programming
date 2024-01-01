@@ -10,7 +10,7 @@ class Person:
         self.name = "Tony"
         self._secret = "hi!"
         self.__msg = "I like dogs!"
-        self.__lol = "HEHEHE"
+        self.__lol = "HEHEHEHE"
 
 p = Person()
 print(p.name)
